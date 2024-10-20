@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastImageCombine", "FastImageCombine\FastImageCombine.csproj", "{B8B52866-5D3B-4859-AE3F-BABF8318BA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCombineTests", "ImageCombineTests\ImageCombineTests.csproj", "{69630305-B7A1-4E35-A65A-74B82C712275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B52866-5D3B-4859-AE3F-BABF8318BA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B52866-5D3B-4859-AE3F-BABF8318BA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B52866-5D3B-4859-AE3F-BABF8318BA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B52866-5D3B-4859-AE3F-BABF8318BA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69630305-B7A1-4E35-A65A-74B82C712275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69630305-B7A1-4E35-A65A-74B82C712275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69630305-B7A1-4E35-A65A-74B82C712275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69630305-B7A1-4E35-A65A-74B82C712275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20307DD0-633C-41BD-982E-89D332D00C8E}
+	EndGlobalSection
+EndGlobal

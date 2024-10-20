@@ -1,0 +1,24 @@
+﻿<Application x:Class="FastImageCombine.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FastImageCombine"
+             xmlns:viewModel="clr-namespace:FastImageCombine.MVVM.ViewModels"
+             xmlns:view="clr-namespace:FastImageCombine.MVVM.Views"
+             StartupUri="MVVM/Views/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/MenuButtonTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+                <view:SettingsView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:ImageCombineViewModel}">
+                <view:ImageCombineView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
